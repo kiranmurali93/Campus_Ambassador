@@ -10,6 +10,7 @@
 # * TODO IN INDEX.JS *
  
   ## Authentication
+  |------- ## testing required
   ## Form
   ## Referral Code Generation
   ## link to Dash Board
