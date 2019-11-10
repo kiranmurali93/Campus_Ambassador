@@ -17,7 +17,7 @@ function googleSignIn() {
 
             console.log(user); // testing
         }
-        // TODO : redirect to refral page
+        // TODO : redirect to referal page
     }).catch((error) => {
         var errorCode = error.code;
         var errorMessage = error.message;
