@@ -1,4 +1,6 @@
 
+// ** ADD CONFIGS HERE **//
+
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
