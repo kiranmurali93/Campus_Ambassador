@@ -9,8 +9,13 @@
   
 # * TODO IN INDEX.JS *
  
-  ## Authentication
-  ### |------- testing required
-  ## Form
-  ## Referral Code Generation
-  ## link to Dash Board
+  ### Authentication
+  #### ---- need to change to enable firebase hosting
+  #### ---- google signin only
+  ### Form
+  #### ---- generate form dynamic
+  #### ---- add user info to db
+  ### Referral Code Generation
+  #### ---- generate referral code on form submit
+  ### link to Dash Board
+  #### ---- generate dashboard dynamic
