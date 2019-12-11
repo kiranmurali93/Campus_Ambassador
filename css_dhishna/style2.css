@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900&display=swap');
 
 html, body{
@@ -19,6 +20,7 @@ hr{
     border: 3px solid #864398;
     width: 25vw;
 }
+<<<<<<< HEAD
 
 
 form{
@@ -87,3 +89,5 @@ input[type=submit]{
 
 
 }
+=======
+>>>>>>> f2cb60b13ea1b7ffd634ea8ded5e32ea8191ad62
