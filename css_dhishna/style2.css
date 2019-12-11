@@ -8,8 +8,8 @@ html, body{
 
 .himg {
     width: 350px;
-    margin-left: 50%;
-    transform: translateX(-50%) translateY(-7px);
+    margin: auto;
+
 }
 
 h1{
@@ -18,4 +18,72 @@ h1{
 hr{
     border: 3px solid #864398;
     width: 25vw;
+}
+
+
+form{
+    color: white;
+    background: linear-gradient(138deg, rgba(144,61,142,1) 0%, rgba(219,99,130,1) 100%);
+    padding: 20px;
+    max-width: 480px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+input{
+    background: rgba(0, 0, 0, 0.0);
+    border: 1.5px solid white;
+    border-radius: 30px;
+    margin: 5px;
+    padding-left: 15px!important;
+    padding: 8px;
+    color: white;
+    width: 47%;
+}
+input::placeholder{
+    color: white;
+}
+select{
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 30px ;
+    margin: 5px;
+    padding-left: 15px!important;
+    padding: 8px;
+}
+textarea{
+    width: 98%;
+    height: 270px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1.5px solid white;
+    border-radius: 8px ;
+    margin: 5px;
+    padding-left: 15px!important;
+    padding: 8px;;
+}
+label{
+    padding-left: 5px;
+}
+input[type=submit]{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 5px 10px 5px 10px!important;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:600px){
+    input{
+        width: 100%;
+    }
+
+    form{
+        margin: 5%;
+    }
+
+
 }
