@@ -45,13 +45,20 @@ input::placeholder{
     color: white;
 }
 select{
-    background: rgba(0, 0, 0, 0);
+    background-color: transparent;
     color: white;
     border: 1.5px solid white;
     border-radius: 30px ;
     margin: 5px;
     padding-left: 15px!important;
     padding: 8px;
+    
+}
+select option {
+    background-color: transparent; 
+    color: black;
+    border-radius: 20px;
+    margin: 10px;
 }
 textarea{
     width: 98%;
@@ -80,6 +87,7 @@ input[type=submit]{
 @media screen and (max-width:600px){
     input{
         width: 100%;
+        
     }
 
     form{
